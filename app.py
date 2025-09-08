@@ -33,3 +33,7 @@ if build_scatter: #si la casilla está seleccionada...
                              )
     #muestra un gráfico Plotly interactivo
     st.plotly_chart(fig_scatter, use_container_width=True)
+
+build_bar = st.bar_chart(df_vehicles,
+             x='type')
+st.plotly_chart(build_bar, use_container_width=True)
