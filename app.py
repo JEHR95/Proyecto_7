@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly_express as px
 
-df_vehicles = pd.read_csv('C:/Users/Usuario/Desktop/3ple10/Sprint_7/Proyecto_7/vehicles_us.csv') #carga los datos del df
+df_vehicles = pd.read_csv('vehicles_us.csv') #carga los datos del df
 hist_button = st.button('Generar Histograma') #crea un botón para ejecutar el código del histograma
 scatter_button = st.button('Generar Dispersión') #crea un botón para ejecutar el código del grafico de dispersión
 
@@ -28,4 +28,4 @@ if scatter_button:
                              )
     #muestra el gráfico Plotly interactivo
     st.plotly_chart(fig_hist, use_container_width=True)
-    
+
