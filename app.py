@@ -27,4 +27,4 @@ if scatter_button:
                              y='price'
                              )
     #muestra el gráfico Plotly interactivo
-    st.plotly_chart(fig_hist, use_container_width==True)
+    st.plotly_chart(fig_hist, use_container_width=True)
