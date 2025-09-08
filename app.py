@@ -28,3 +28,4 @@ if scatter_button:
                              )
     #muestra el gráfico Plotly interactivo
     st.plotly_chart(fig_hist, use_container_width=True)
+    
