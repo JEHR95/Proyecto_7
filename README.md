@@ -12,3 +12,11 @@ La aplicación web está diseñada para que al seleccionar las casillas se gener
 que permitirán visualizar la información de manera general o más a detalle realizando zoom al interior del gráfico
 
 URL: https://proyecto-7-t03h.onrender.com
+
+### Lo que podremos encontrar:
+
+![alt text](image.png)
+
+### Despliegue de información:
+
+![alt text](image-1.png)
